@@ -2,7 +2,7 @@ import { Row, Col } from "react-bootstrap";
 import PostList from "../components/PostList";
 import FilterPosts from "../components/FilterPosts";
 import { useState } from "react";
-import { postSelectedStatustype } from "../types/posts";
+import { postSelectedStatustype } from "../types";
 import SearchQuery from "../components/SearchQuery";
 
 const Home = () => {

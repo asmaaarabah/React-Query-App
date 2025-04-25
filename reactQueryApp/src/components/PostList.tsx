@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Table, Form, ButtonGroup, Button } from "react-bootstrap";
-import { postSelectedStatustype } from "../types/posts";
+import { postSelectedStatustype } from "../types";
 import useGetPosts from "../hooks/useGetPosts";
 import useSearchQuery from "../hooks/useSearchQuery";
 import { useState } from "react";

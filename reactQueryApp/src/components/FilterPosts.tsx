@@ -1,5 +1,5 @@
 import { Form } from "react-bootstrap";
-import { postSelectedStatustype } from "../types/posts";
+import { postSelectedStatustype } from "../types";
 
 interface propsFilterPost {
   selectedPostStatus: postSelectedStatustype;

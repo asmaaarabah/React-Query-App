@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useQuery, UseQueryResult } from "@tanstack/react-query";
-import { dataItem, postSelectedStatustype } from "../types/posts";
+import { dataItem, postSelectedStatustype } from "../types";
 const fetchPosts = async (
   selectedPostStatus: postSelectedStatustype,
   paginate: number
