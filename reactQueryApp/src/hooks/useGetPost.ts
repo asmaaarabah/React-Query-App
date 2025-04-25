@@ -4,7 +4,7 @@ import {
   UseQueryResult,
 } from "@tanstack/react-query";
 import axios from "axios";
-import { dataItem } from "../types/posts";
+import { dataItem } from "../types";
 
 const fetchData = async (id: string): Promise<dataItem> => {
   const response = await axios.get<dataItem>(
